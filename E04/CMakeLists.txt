@@ -1,0 +1,6 @@
+add_executable (E04-A2a A2a.c)
+add_executable (E04-A2b A2b.c)
+target_link_libraries (E04-A2b m)
+add_executable (E04-A2c A2c.c)
+target_link_libraries (E04-A2c m)
+add_executable (E04-A3 A3.c)
