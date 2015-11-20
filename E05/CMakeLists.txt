@@ -1,0 +1,7 @@
+add_executable(E05-A1a-naive A1-main.c A1a.c A1a-naive.c)
+add_executable(E05-A1a-iterative A1-main.c A1a.c A1a-iterative.c)
+add_executable(E05-A1a-efficient A1-main.c A1a.c A1a-efficient.c)
+add_executable(E05-A1b A1-main.c A1b.c)
+add_executable(E05-A1c-f A1-main.c A1c.c A1c-f.c)
+add_executable(E05-A1c-m A1-main.c A1c.c A1c-m.c)
+add_executable(E05-A3 A3.c)
