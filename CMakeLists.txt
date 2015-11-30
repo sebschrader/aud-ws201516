@@ -14,3 +14,4 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_subdirectory (E04)
 add_subdirectory (E05)
+add_subdirectory (E06)
