@@ -12,6 +12,10 @@ endif()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
+add_library ("readline" readline.c)
+add_library ("list" list.c)
+target_link_libraries ("list" readline)
+
 add_subdirectory (E04)
 add_subdirectory (E05)
 add_subdirectory (E06)
