@@ -14,7 +14,9 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 add_library ("readline" readline.c)
 add_library ("list" list.c)
+add_library ("tree" tree.c)
 target_link_libraries ("list" readline)
+target_link_libraries ("tree" readline)
 
 add_subdirectory (E04)
 add_subdirectory (E05)
