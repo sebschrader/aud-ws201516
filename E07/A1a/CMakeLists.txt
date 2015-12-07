@@ -1,0 +1,6 @@
+add_executable (E07-A1a-sum-iterative-for   test.c iterative-for.c)
+add_executable (E07-A1a-sum-iterative-while test.c iterative-while.c)
+add_executable (E07-A1a-sum-recursive       test.c recursive.c)
+target_link_libraries (E07-A1a-sum-iterative-for   "list")
+target_link_libraries (E07-A1a-sum-iterative-while "list")
+target_link_libraries (E07-A1a-sum-recursive       "list")
